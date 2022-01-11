@@ -76,12 +76,16 @@ h3 {
   color: black;
 }
 
+
+
+
 .icons {
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #contact_me {
   list-style: none;
   text-align: center;
@@ -93,6 +97,7 @@ h3 {
 	height: 6vmin;
   width: 6vmin;
 	cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 
 #contact_me li {
@@ -101,8 +106,7 @@ h3 {
 }
 
 #contact_me li img:hover{
-  height: 7vmin;
-  width: 7vmin;
+  transform: scale(1.3);
 	cursor: pointer;
 }
 
