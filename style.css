@@ -61,6 +61,12 @@ h3 {
   color: black;
 }
 
+.icons {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #contact_me {
   list-style: none;
   text-align: center;
