@@ -1,8 +1,6 @@
-
-
 html {
   font-family: 'Source Serif Pro', serif;
-	background: linear-gradient(-45deg, #75dbe2, #408cca, #4360e0);
+	background: linear-gradient(-45deg, #75dbe2, #66a4d6, #0427c7);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -75,9 +73,6 @@ h3 {
 #links li a:hover{
   color: black;
 }
-
-
-
 
 .icons {
   height: 20vh;
