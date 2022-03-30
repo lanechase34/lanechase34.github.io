@@ -1,109 +1,73 @@
-html {
-  font-family: 'Source Serif Pro', serif;
-	background: linear-gradient(-45deg, #75dbe2, #66a4d6, #0427c7);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+body {
+    background-color: #222831;
+    font-family:  'Ubuntu', sans-serif;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-body{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-
-html, body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.name p{
-  color: white;
-  font-size: 3.5em;
-  margin: 0px;
-}
-.detail p{
-  color: white;
-  font-size: 1em;
-  margin: 0px;
-}
 h1 {
-  color: white;
-  font-size: 4em;
-}
-h3 {
-  color: white;
-  font-size: 1.2em;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 5rem;
 }
 
-#links {
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+h2 {
+    color: #00ADB5;
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
 }
 
-#links li {
-  display: inline;
-  padding: 10px;
+button.mainNav {
+  background: none;
+  cursor: pointer;
+  color: #EEEEEE;
+  border: 2px solid;
+  padding: .5em 2em;
+  font-size: 2.5em;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
-#links li a{
-  color: white;
-  text-decoration: none;
+button.mainNav:hover {
+  border-color: #00ADB5;
+  color: #00ADB5;
+  box-shadow: 0 0.5em 0.5em -0.4em #00ADB5;
+  cursor: pointer;
+}
+
+button.contact {
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: #00ADB5;
   font-size: 1.5em;
 
 }
-#links li a:hover{
-  color: black;
+button.contact img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(119deg) brightness(103%) contrast(102%);
+  transition: .2s;
+  width: 4.5rem;
+  height: auto;
 }
 
-.icons {
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+button.contact img:hover {
+  filter: invert(44%) sepia(97%) saturate(2050%) hue-rotate(150deg) brightness(97%) contrast(101%);
+  transition: .2s;
+}
+.contactRow {
+  margin-top: 15px;
 }
 
-#contact_me {
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+@media (max-width: 1000px) {
+    h1 {
+    font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    button.mainNav {
+      font-size: 1.5rem;
+    }
+    button.contact img {
+      width: 3.5rem;
+      height: auto;
+    }
 }
-
-#contact_me li img {
-	height: 6vmin;
-  width: 6vmin;
-	cursor: pointer;
-  transition: all .2s ease-in-out;
-}
-
-#contact_me li {
-	display: inline;
-  padding: 10px;
-}
-
-#contact_me li img:hover{
-  transform: scale(1.3);
-	cursor: pointer;
-}
-
-
-  
