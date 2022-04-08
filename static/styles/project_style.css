@@ -1,0 +1,141 @@
+body {
+  background-color: #222831;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  color: #EEEEEE;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+
+h2 {
+  color: #00ADB5;
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+button.mainNav {
+  background: none;
+  cursor: pointer;
+  color: #EEEEEE;
+  border: 2px solid;
+  padding: .5em 2em;
+  font-size: 2em;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+button.mainNav:hover {
+  border-color: #00ADB5;
+  color: #00ADB5;
+  box-shadow: 0 0.5em 0.5em -0.4em #00ADB5;
+  cursor: pointer;
+}
+
+button.contact {
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: #00ADB5;
+  font-size: 1.5em;
+
+}
+
+button.contact img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(119deg) brightness(103%) contrast(102%);
+  transition: .2s;
+  width: 4.5rem;
+  height: auto;
+}
+
+button.contact img:hover {
+  filter: invert(44%) sepia(97%) saturate(2050%) hue-rotate(150deg) brightness(97%) contrast(101%);
+  transition: .2s;
+}
+
+.contactRow {
+  margin-top: 15px;
+}
+
+.navbar {
+  background-color: #393E46;
+}
+
+.navbar .mainNav {
+  background: none;
+  cursor: pointer;
+  color: #EEEEEE;
+  border: 2px solid;
+  padding: .1em .5em;
+  font-size: 1.5em;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  margin-inline: 5px;
+}
+
+#projectShow h5 {
+  color: #00ADB5;
+  font-size: 1.5rem;
+}
+
+#mainNav {
+  background-color: #393E46;
+  font-size: 1.25rem;
+}
+
+#projectShow p {
+  font-size: 1rem;
+}
+
+#mainNav .navbar-brand {
+  color: #EEEEEE;
+  font-size: 1.25rem;
+}
+
+#mainNav .nav-item {
+  list-style-type: none;
+}
+
+#mainNav .nav-link {
+  color: #00ADB5;
+}
+
+#mainNav .nav-link:hover {
+  color: #EEEEEE;
+}
+
+.carousel-caption {
+  position: relative;
+  background-color: #222831;
+  left: 0;
+  top: 0;
+  margin-bottom: 4px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button.mainNav {
+    font-size: 1.5rem;
+  }
+
+  button.contact img {
+    width: 3.5rem;
+    height: auto;
+  }
+}
