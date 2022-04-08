@@ -63,6 +63,10 @@ button.contact img:hover {
   background-color: #393E46;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 .navbar .mainNav {
   background: none;
   cursor: pointer;
